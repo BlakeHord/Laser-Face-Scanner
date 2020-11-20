@@ -3,15 +3,15 @@
 Code for project that uses facial recognition on a Raspberry Pi Camera to display a face outline using a custom laser scanner
 
 ## Parts Used:
-- Raspberry Pi 3
-- Raspberry Pi Camera V2.1
-- Teensy 4.0
-- Galvanometer Scanners
-- 1x laser
-- 2x 2-channel Op-Amps
-- 1x 2-channel DAC
-- 2x voltage regulators
-- Whole bunch of wires, breadboards, and cords
+- [Raspberry Pi 3]()
+- Raspberry Pi [Camera V2.1](https://www.digikey.com/en/products/detail/raspberry-pi/913-2664/6152810s)
+- [Teensy 4.0](https://www.digikey.com/en/products/detail/sparkfun-electronics/DEV-16997/13158150)
+- [Galvanometer Scanners](https://www.aliexpress.com/item/1901995485.html?spm=a2g0o.productlist.0.0.20cc784aRRpdWG&algo_pvid=0dd55446-5275-4fb7-b43f-9c5ecc3d0831&algo_expid=0dd55446-5275-4fb7-b43f-9c5ecc3d0831-1&btsid=0bb0622e16004588429046424ec629&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_)
+- 1x [laser](https://www.amazon.com/532MD-30-532nm-4-2-5VDC-Green-Module/dp/B00S3DX5G2/ref=sr_1_4?dchild=1&keywords=green+laser+ttl&qid=1600451311&sr=8-4)
+- 2x 2-channel Op-Amps ([TL082CP](https://www.digikey.com/en/products/detail/texas-instruments/TL082CP/277630))
+- 1x 2-channel DAC ([MCP4822-E/P](https://www.digikey.com/en/products/detail/microchip-technology/MCP4822-E-P/951465))
+- 2x voltage regulators ([L7805CV](https://www.digikey.com/en/products/detail/stmicroelectronics/L7805CV/585964))
+- Whole bunch of wires, breadboards, resistors, and cords
 
 ## Software Requirements:
 - Raspberry Pi: Python packages in requirements.txt (imutils, datetime, time, dlib, cv2, serial, numpy, RPi.GPIO)
