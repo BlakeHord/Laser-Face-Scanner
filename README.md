@@ -24,11 +24,6 @@ Code for project that uses facial recognition on a Raspberry Pi Camera to displa
 - laser_face.py: runs on Raspberry Pi, receives input from camera, uses facial landmark predictor to output 68 points of your face and communicate them over serial to the teensy
 	- You'll need to download the predictor file from [here](https://www.pyimagesearch.com/2017/04/10/detect-eyes-nose-lips-jaw-dlib-opencv-python/)
 
-
-## Hardware layout: 
-insert picture here
-
-
 ## ToDo:
 - Make it much faster. The major bottleneck is the python facial recognition so maybe convert it to C++?
 - Fix streaking when drawing the face
